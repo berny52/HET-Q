@@ -1,0 +1,15 @@
+name: het-q
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - networkx
+  - matplotlib
+  - pytest
+  - pip:
+    - qiskit==1.1.0
+    - python-sat
+    - graph-ricci-curvature
