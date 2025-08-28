@@ -1,0 +1,6 @@
+metric,value
+nodes,18
+edges,80
+diameter,3
+clustering,0.551058201058201
+density,0.5228758169934641

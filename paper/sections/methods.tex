@@ -1,0 +1,10 @@
+\section{Methods}
+\subsection{Classical Solution Sampling}
+We use WalkSAT with noise parameter $p=0.5$ and 100 steps per instance. Solutions are filtered at $\geq 75\%$ satisfaction ratio.
+
+\subsection{Graph Construction}
+Solution graphs are constructed using Hamming distance $\leq 2$ as connectivity criterion. Network metrics include diameter, clustering coefficient, and degree distribution.
+
+\subsection{Quantum Circuit Design}
+Grover circuits are implemented with Qiskit 1.1.0, using optimal iteration count $O(\sqrt{N/M})$ for $N=32$ total states and $M=18$ solutions.
+\end{document}
